@@ -12,4 +12,4 @@
 
 ### For a 64-bit Linux
 
-	docker run --rm -v $(pwd):/pwd convertigo/7zip a -sfx7zConLin64.sfx myarchive-win32.exe myarchive
+	docker run --rm -v $(pwd):/pwd convertigo/7zip a -sfx7zConLin64.sfx myarchive-lin64.bin myarchive
